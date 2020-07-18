@@ -51,7 +51,8 @@ public class Player : MonoBehaviour
     [Header("角色是否死亡"), Tooltip("True 代表死亡，False 代表尚未死亡")]
     public bool dead;
 
-
+    [Header("動畫控制器")]
+    public Animator ani;
     #endregion
 
 
